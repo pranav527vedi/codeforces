@@ -8,9 +8,7 @@ public class stone{
         for(int i = 0; i < x-1 ;i++){
             if(s.charAt(i) == s.charAt(i+1)){
                 count++;
-
-            }
-           
+            }  
         }
         System.out.println(count);
     }
